@@ -1,0 +1,76 @@
+.seciton-title {
+    font-weight: 100;
+    letter-spacing: 0px;
+    border-bottom: 4px double #fff;
+    padding: 5px 0;
+    margin-bottom: 25px;
+    color: #61dafb;
+    font-size: 35px;
+}
+
+.course-cover img {
+    width: 100%;
+}
+
+.single-course {
+    background: #e7e6e712;
+    margin-bottom: 30px;
+}
+
+.course-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a8e3f3;
+}
+
+.course-description {
+    padding: 10px 15px 0;
+}
+
+.course-instructor {
+    font-size: 15px;
+    opacity: .6;
+    line-height: .7;
+    font-weight: 200;
+}
+
+.rating {
+    font-weight: 800;
+    font-size: 17px;
+    color: #fff03c;
+}
+
+.rating svg {
+    padding-left: 4px;
+    margin-left: 1px;
+    margin-right: px;
+}
+
+.total-reviewd {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.course-price {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.course-price del {
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    opacity: .9;
+}
+
+.enroll-btn {
+    border: navajowhite;
+    display: block;
+    width: 100%;
+    background: #177ca3;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0px;
+    font-weight: 600;
+}
