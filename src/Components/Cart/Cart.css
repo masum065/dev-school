@@ -1,0 +1,29 @@
+.cart {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    text-align: center;
+    background: #177ca3;
+    transform: translateY(-50%);
+    width: 95px;
+}
+
+p.total-bill {
+    margin-bottom: 0;
+    background: #000611;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+
+.icon {
+    padding: 6px 0;
+}
+
+.icon svg {
+    font-size: 30px;
+}

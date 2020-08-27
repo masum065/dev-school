@@ -78,4 +78,9 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    transition: all linear .2s;
+}
+
+.enroll-btn:active {
+    background: #24647e;
 }

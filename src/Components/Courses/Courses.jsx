@@ -3,20 +3,18 @@ import courseData from '../../CourseData/CourseData';
 
 import './Courses.css';
 import SingleCourse from '../SingleCourse/SingleCourse';
+import Menu from '../Menu/Menu';
+import Cart from '../Cart/Cart';
 
 const Courses = () => {
   const data = [...courseData];
-  console.log(data);
 
   return (
     <div>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-2'>
-            <div className='course-menu'>
-              <a href='/couse'>All Course</a>
-              <a href='/couse'>Book</a>
-            </div>
+            <Menu />
           </div>
           <div className='col-lg-10'>
             <h3 className='seciton-title'>All Courses</h3>
@@ -29,6 +27,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
+      <Cart />
     </div>
   );
 };
