@@ -163,17 +163,17 @@ var courses = [{
         "star": 4.9,
         "coverPhoto": "https://img-a.udemycdn.com/course/240x135/1587718_8fdf.jpg"
     },
-    {
-        "key": "CDBRDKH54",
-        "title": "C++: From Beginner to Expert",
-        "instructor": "Arkadiusz Włodarczyk",
-        "regularPrice": "139.99",
-        "price": "21.99",
-        "enrolled": 39442,
-        "reviewed": 7895,
-        "star": 4.5,
-        "coverPhoto": "https://img-a.udemycdn.com/course/240x135/43718_e5ca_10.jpg"
-    },
+    // {
+    //     "key": "CDBRDKH54",
+    //     "title": "C++: From Beginner to Expert",
+    //     "instructor": "Arkadiusz Włodarczyk",
+    //     "regularPrice": "139.99",
+    //     "price": "21.99",
+    //     "enrolled": 39442,
+    //     "reviewed": 7895,
+    //     "star": 4.5,
+    //     "coverPhoto": "https://img-a.udemycdn.com/course/240x135/43718_e5ca_10.jpg"
+    // },
 
 ];
 

@@ -14,6 +14,7 @@ const SingleCourse = (props) => {
     regularPrice,
     coverPhoto,
   } = props.courseData;
+
   return (
     <div className='col-lg-4'>
       <div className='single-course'>
@@ -34,7 +35,12 @@ const SingleCourse = (props) => {
             ${price} <del>${regularPrice}</del>
           </p>
         </div>
-        <button className='enroll-btn'>Enroll Now</button>
+        <button
+          onClick={() => props.handleAddCourse(props.courseData)}
+          className='enroll-btn'
+        >
+          Enroll Now
+        </button>
       </div>
     </div>
   );

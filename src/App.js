@@ -6,7 +6,7 @@ import Courses from './Components/Courses/Courses';
 function App() {
   return (
     <div className='main'>
-      <Header></Header>
+      <Header />
       <Courses />
     </div>
   );

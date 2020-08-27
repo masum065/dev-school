@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import courseData from '../../CourseData/CourseData';
 
 import './Courses.css';
@@ -7,8 +7,13 @@ import Menu from '../Menu/Menu';
 import Cart from '../Cart/Cart';
 
 const Courses = () => {
-  const data = [...courseData];
+  const [courses, setCourse] = useState([...courseData]);
+  const [cart, setCart] = useState([]);
 
+  const handleAddCourse = (course) => {
+    const newCart = [...cart, course];
+    setCart(newCart);
+  };
   return (
     <div>
       <div className='container'>
@@ -20,14 +25,18 @@ const Courses = () => {
             <h3 className='seciton-title'>All Courses</h3>
 
             <div className='row'>
-              {data.map((item) => (
-                <SingleCourse key={item.key} courseData={item} />
+              {courses.map((course) => (
+                <SingleCourse
+                  handleAddCourse={handleAddCourse}
+                  key={course.key}
+                  courseData={course}
+                />
               ))}
             </div>
           </div>
         </div>
       </div>
-      <Cart />
+      <Cart count={cart.length} cart={cart} />
     </div>
   );
 };
